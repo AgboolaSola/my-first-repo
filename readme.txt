@@ -1,1 +1,1 @@
-"My Git learning project" 
+"My Git mastery journey" 
