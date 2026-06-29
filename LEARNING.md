@@ -70,3 +70,12 @@ Git requires UTF-8.
 
 **Fix:** Open `.gitignore` in VS Code, click the encoding in the
 bottom right corner, select "Save with Encoding" → UTF-8.
+
+## Changelog
+
+### v0.1.0 — June 2026
+
+- Initialised learning log
+- Documented Git fundamentals, branching, GitHub workflow
+- Added professional workflow notes (rebase, squash, conventional commits)
+- Documented UTF-16 .gitignore fix for Windows
