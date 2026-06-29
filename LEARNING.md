@@ -100,6 +100,47 @@ bottom right corner, select "Save with Encoding" → UTF-8.
 - Keep commit descriptions under 72 characters
 - Start descriptions with a verb: add, fix, update, remove
 
+## Session 6 — Open Source Collaboration
+
+**Date:** June 2026
+
+### What I learned
+
+- The difference between team collaboration and open source collaboration
+- How forking works — your personal copy of someone else's repo
+- The three locations in open source: upstream, origin, local
+- How to add an upstream remote to track the original repo
+- How to open a PR from a fork to the original repository
+- How to sync a fork after changes are merged upstream
+- What happens after opening a PR: merge, request changes, or close
+
+### Commands covered
+
+- `git clone <fork-url>` — clone your fork locally
+- `git remote add upstream <original-url>` — track the original repo
+- `git remote -v` — verify remote connections
+- `git pull upstream master` — sync from original repo
+- `git push origin master` — update your fork on GitHub
+
+### Key concepts
+
+- origin = your fork on GitHub
+- upstream = the original repository you forked from
+- Always pull upstream before starting new work
+- PRs go from your fork to the original repo, not within your fork
+- Your contribution graph updates when PRs are merged into others' repos
+
+### Full open source workflow
+
+1. Fork the repo on GitHub
+2. Clone your fork locally
+3. Add upstream remote
+4. Create a feature branch
+5. Make changes, commit, push to your fork
+6. Open PR from your fork to the original repo
+7. Maintainer reviews and merges
+8. Sync your fork: pull upstream → push origin
+
 ## Changelog
 
 ### v0.1.0 — June 2026
@@ -113,3 +154,8 @@ bottom right corner, select "Save with Encoding" → UTF-8.
 
 - Added Session 5 notes covering professional Git usage
 - Added troubleshooting entry for Windows .gitignore UTF-16 issue
+
+### v0.3.0 — June 2026
+
+- Added Session 6 notes covering open source collaboration
+- Documented fork, upstream, and sync workflow
