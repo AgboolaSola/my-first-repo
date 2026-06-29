@@ -71,6 +71,35 @@ Git requires UTF-8.
 **Fix:** Open `.gitignore` in VS Code, click the encoding in the
 bottom right corner, select "Save with Encoding" → UTF-8.
 
+## Session 5 — Professional Git Usage
+
+**Date:** June 2026
+
+### What I learned
+
+- Conventional Commits format: type(scope): description
+- Common types: feat, fix, chore, docs, style, refactor, test
+- Why conventional commits matter: readable history, automated
+  changelogs, team communication
+- .gitignore: how to tell Git which files to never track
+- Windows UTF-16 encoding bug with .gitignore and how to fix it
+- Git aliases: shortcuts for frequently used commands
+- GitHub Issues: tracking bugs and features
+- Auto-closing issues with `closes #N` in PR descriptions
+
+### Commands covered
+
+- `git config --global alias.name "command"`
+- `git check-ignore -v filename`
+
+### Key rules learned
+
+- Never commit .env files — API keys become public on GitHub
+- Don't alias destructive commands like reset --hard
+- Use present tense in commit messages: `add` not `added`
+- Keep commit descriptions under 72 characters
+- Start descriptions with a verb: add, fix, update, remove
+
 ## Changelog
 
 ### v0.1.0 — June 2026
@@ -79,3 +108,8 @@ bottom right corner, select "Save with Encoding" → UTF-8.
 - Documented Git fundamentals, branching, GitHub workflow
 - Added professional workflow notes (rebase, squash, conventional commits)
 - Documented UTF-16 .gitignore fix for Windows
+
+### v0.2.0 — June 2026
+
+- Added Session 5 notes covering professional Git usage
+- Added troubleshooting entry for Windows .gitignore UTF-16 issue
